@@ -10,7 +10,7 @@
 </p>
 
 	
-## <picture><img src = "https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width = 50px></picture> **About me**
+## **About me**
 
 <picture> <img align="right" src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/Right_Side.gif" width = 250px></picture>
 
@@ -22,6 +22,7 @@
 - Have a passion for researching and creating algorithms
 - Currently looking to apply math to find the principles of biology 
 - With the ambition to control and program the bio-world.
+- I’m currently open for an Intern or a new job opportunity, this is [my resume](https://github.com/Truongphi20/Truongphi20/raw/main/PHI-NGUYEN-TRUONG.pdf)
 
 
 <br><br>

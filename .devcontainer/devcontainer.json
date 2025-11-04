@@ -9,8 +9,6 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "shopify.ruby-lsp",
-        "rebornix.ruby"
       ]
     }
   }

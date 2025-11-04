@@ -7,34 +7,35 @@ RUN apt-get update && apt-get install -y \
     nodejs \
     && rm -rf /var/lib/apt/lists/*
 
-# Install Jekyll + Bundler
-RUN gem install bundler jekyll
+# Install Bundler only
+RUN gem install bundler
 
-# Set up workspace
+# Install GitHub Pages dependencies
+COPY Gemfile /src/Gemfile
+WORKDIR /src
+RUN bundle install
+
+# Workspace directory
 RUN mkdir -p /workspace
-
 WORKDIR /workspace
 
-# Change ownership so non-root can write to workspace
+# Create vscode user
 ARG USER_UID=1000
 ARG USER_GID=1000
-
-# Create vscode user and group
 RUN groupadd -g $USER_GID vscode && \
-    useradd -m -s /bin/bash -u $USER_UID -g vscode vscode
-RUN chown -R vscode:vscode /workspace
+    useradd -m -s /bin/bash -u $USER_UID -g $USER_GID vscode && \
+    chown -R vscode:vscode /workspace
 
 # Switch to non-root user
 USER vscode
 
-# Add colorful, git-aware PS1
-RUN echo 'parse_git_branch() {' >> /home/vscode/.bashrc \
- && echo '  branch=$(git branch --show-current 2>/dev/null)' >> /home/vscode/.bashrc \
- && echo ' if [ -n "$branch" ]; then echo " (\033[0;33m$branch\033[0m)"; fi' >> /home/vscode/.bashrc \
- && echo '}' >> /home/vscode/.bashrc \
- && echo 'export PS1="\[\033[0;32m\]\u@\h\[\033[0m\]->\[\033[0;34m\]\w\[\033[0m\]\$(parse_git_branch) \$ "' >> /home/vscode/.bashrc
+# Add colorful git-aware prompt
+RUN echo 'parse_git_branch() {' >> ~/.bashrc \
+ && echo '  branch=$(git branch --show-current 2>/dev/null)' >> ~/.bashrc \
+ && echo '  if [ -n "$branch" ]; then echo " (\033[0;33m$branch\033[0m)"; fi' >> ~/.bashrc \
+ && echo '}' >> ~/.bashrc \
+ && echo 'export PS1="\[\033[0;32m\]\u@\h\[\033[0m\]->\[\033[0;34m\]\w\[\033[0m\]\$(parse_git_branch) \$ "' >> ~/.bashrc
 
-
-# Make bash default shell
 SHELL ["/bin/bash", "-c"]
 CMD ["bash"]
+

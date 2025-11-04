@@ -1,7 +1,8 @@
 {
   "name": "Jekyll DevContainer",
   "dockerFile": "Dockerfile",
-
+  "remoteUser": "vscode",
+  "workspaceFolder": "/workspace",
   "forwardPorts": [4000],
   "postCreateCommand": "bundle install",
 

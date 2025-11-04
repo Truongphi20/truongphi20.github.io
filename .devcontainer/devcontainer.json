@@ -1,0 +1,16 @@
+{
+  "name": "Jekyll DevContainer",
+  "dockerFile": "Dockerfile",
+
+  "forwardPorts": [4000],
+  "postCreateCommand": "bundle install",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "shopify.ruby-lsp",
+        "rebornix.ruby"
+      ]
+    }
+  }
+}

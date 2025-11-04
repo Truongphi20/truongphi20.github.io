@@ -5,14 +5,9 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=300&color=F7C714&center=true&vCenter=true&width=435&lines=Life+is+a+great+test%2C;do+it+whether+you+want+or+not.;Math+is+core%2C+bio+builds+your+stuff.;How+can+understand+your+love%3F"></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Truongphi20"><img src="https://github-readme-stats.vercel.app/api?username=Truongphi20&show_icons=true&theme=tokyonight" alt="Truongphi20's github stats"></a>
-</p>
-
 	
 ## **About me**
 
-<picture> <img align="right" src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/Right_Side.gif" width = 250px></picture>
 
 <br>
 

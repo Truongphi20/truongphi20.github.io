@@ -3,8 +3,8 @@
   "dockerFile": "Dockerfile",
   "remoteUser": "vscode",
   "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
   "forwardPorts": [4000],
-  "postCreateCommand": "bundle install",
 
   "customizations": {
     "vscode": {

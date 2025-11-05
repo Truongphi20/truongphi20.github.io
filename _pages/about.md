@@ -7,22 +7,22 @@ subtitle: Bioinformatician — Genomics • NGS • Computational Biology
 profile:
   align: right
   image: 96680644.jpeg
-  image_circular: false
+  image_circular: true
   more_info: >
     <p>Ho Chi Minh City, Vietnam</p>
     <p>Email: <a href="mailto:phinguyenphinguyen2000@gmail.com">phinguyenphinguyen2000@gmail.com</a></p>
     <p>Phone: +84 368 098 315</p>
 
-selected_papers: true
-social: true
+selected_papers: false
+social: false
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 5
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 3
 ---

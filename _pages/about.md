@@ -20,11 +20,6 @@ announcements:
   enabled: false
   scrollable: true
   limit: 5
-
-latest_posts:
-  enabled: false
-  scrollable: true
-  limit: 3
 ---
 
 Hello! I’m **Nguyễn Trương Phi**, a bioinformatician with a strong interest in **genomics, and computational methods in biology**.

@@ -14,7 +14,7 @@ profile:
     <p>Phone: +84 368 098 315</p>
 
 selected_papers: false
-social: false
+social: true
 
 announcements:
   enabled: false
@@ -37,10 +37,3 @@ Outside of work, I enjoy exploring new computational tools, visualizing biologic
 - Polygenic Scores  
 - Bioinformatics Pipelines  
 - Computational Biology  
-
----
-
-## Find Me Online
-- **GitHub:** <a href="https://github.com/Truongphi20" target="_blank">Truongphi20</a>  
-- **ORCID:** <a href="https://orcid.org/0009-0008-5543-7660" target="_blank">0009-0008-5543-7660</a>  
-- **Twitter:** <a href="https://twitter.com/PhiNguynTrng1" target="_blank">@PhiNguynTrng1</a>

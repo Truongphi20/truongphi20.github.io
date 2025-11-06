@@ -1,0 +1,152 @@
+{
+  "basics": {
+    "name": "Nguyễn Trương Phi",
+    "label": "Bioinformatician",
+    "image": "",
+    "email": "phinguyenphinguyen2000@gmail.com",
+    "phone": "+84 368 098 315",
+    "url": "https://Truongphi20.github.io/al-folio/",
+    "summary": "Bioinformatician with strong analytical skills and experience in NGS data analysis, genomics, metagenomics, and pipeline development. Passionate about combining mathematical logic with biological applications.",
+    "location": {
+      "address": "Huỳnh Tấn Phát, Phú Xuân, Nhà Bè, Hồ Chí Minh, Việt Nam",
+      "postalCode": "",
+      "city": "Ho Chi Minh City",
+      "countryCode": "VN",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Truongphi20",
+        "url": "https://github.com/Truongphi20"
+      }
+    ]
+  },
+
+  "work": [
+    {
+      "name": "KTest Viet Nam",
+      "position": "Bioinformatician",
+      "url": "https://example.com",
+      "startDate": "2023-06-01",
+      "endDate": "2025-04-01",
+      "summary": "Analyzed NGS data and contributed to pipeline development for genome, metagenome, and transcriptome projects across healthcare, agriculture, and environmental domains. Contributed to scientific reports and conference presentations.",
+      "highlights": [
+        "NGS data processing",
+        "Pipeline development",
+        "Genomics, metagenomics & transcriptomics",
+        "Scientific report contributions"
+      ]
+    },
+    {
+      "name": "LAI PHU Beverage CO., LTD",
+      "position": "Intern",
+      "url": "",
+      "startDate": "2021-05-01",
+      "endDate": "2021-06-01",
+      "summary": "Graduation internship focusing on learning the production process at LAI PHU Beverage Co., LTD under the supervision of Dr. Phan Thi Huyen.",
+      "highlights": []
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "Ho Chi Minh City University of Technology",
+      "location": "Ho Chi Minh City, Vietnam",
+      "url": "",
+      "area": "Biotechnology",
+      "studyType": "Bachelor",
+      "startDate": "2018-09-01",
+      "endDate": "2022-08-01",
+      "score": "",
+      "courses": [
+        "Genome sequencing and analysis of bacteriophages (Design Project)",
+        "Genome processing and analysis related to catfish disease treatment (Thesis)"
+      ]
+    }
+  ],
+
+  "awards": [],
+
+  "certificates": [],
+
+  "publications": [
+    {
+      "name": "Imputation and polygenic score performance of low-coverage whole-genome sequencing and genotyping arrays in diverse human populations",
+      "publisher": "bioRxiv",
+      "releaseDate": "2025-07-18",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.07.18.665609v1",
+      "summary": "First-author preprint evaluating imputation and polygenic score performance of low-coverage WGS and SNP arrays across multiple populations."
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Bioinformatics",
+      "level": "",
+      "icon": "",
+      "keywords": [
+        "NGS data analysis",
+        "Genomics",
+        "Metagenomics",
+        "Transcriptomics",
+        "Pipeline development",
+        "Data analysis"
+      ]
+    },
+    {
+      "name": "Programming",
+      "keywords": ["Python", "C++"]
+    },
+    {
+      "name": "Cloud Computing",
+      "keywords": ["Linux", "Cloud platforms"]
+    },
+    {
+      "name": "Mathematics",
+      "keywords": []
+    },
+    {
+      "name": "Wet Lab Skills",
+      "keywords": ["Basic lab techniques"]
+    }
+  ],
+
+  "languages": [
+    {
+      "language": "Vietnamese",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate",
+      "icon": ""
+    }
+  ],
+
+  "interests": [
+    {
+      "name": "Bioinformatics",
+      "icon": "",
+      "keywords": ["Genomics", "NGS", "Mathematics", "Biotechnology"]
+    }
+  ],
+
+  "references": [],
+
+  "projects": [
+    {
+      "name": "Imputation & Polygenic Score Analysis",
+      "summary": "First-author project evaluating imputation and PGS accuracy of low-pass WGS and SNP arrays in diverse human populations.",
+      "highlights": [
+        "Low-pass sequencing analysis",
+        "Imputation accuracy benchmarking",
+        "PGS evaluation across populations"
+      ],
+      "startDate": "2024-01-01",
+      "endDate": "2025-01-01",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.07.18.665609v1"
+    }
+  ]
+}

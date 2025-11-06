@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://truongphi20.github.ioTruongphi20/sitemap.xml
+Sitemap: https://truongphi20.github.io/sitemap.xml

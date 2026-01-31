@@ -22,18 +22,20 @@ announcements:
   limit: 5
 ---
 
-Hello! I’m **Nguyễn Trương Phi**, a bioinformatician with a strong interest in **genomics, and computational methods in biology**.
+Hello! I’m **Nguyễn Trương Phi**, a bioinformatician focused on **genomics, NGS data analysis, and algorithm-driven computational biology**.
 
-I enjoy solving problems at the intersection of **mathematics, computer science, and life sciences**, and I’m particularly passionate about building reproducible pipelines, analyzing large-scale genomic datasets, and improving the biological insights we can extract from sequencing technologies.
+My work centers on understanding bioinformatics methods **beyond black-box usage**—by studying algorithms, source code, and underlying assumptions—and **translating that understanding into robust, reproducible analysis pipelines**. I’m particularly interested in population-scale genomics, low-pass sequencing, imputation, and polygenic score analysis.
 
-Outside of work, I enjoy exploring new computational tools, visualizing biological data, and studying how mathematical logic can reveal hidden biological patterns. I’m always open to research discussions and collaborations.
+I enjoy working at the intersection of mathematics, computer science, and life sciences, where computational rigor directly shapes biological insight. Alongside applied analysis, I actively explore how algorithmic design choices influence accuracy, scalability, and interpretability in genomic workflows.
+
+Outside of core research, I enjoy reading source code, experimenting with new computational tools, and thinking about how mathematical structure can reveal hidden biological patterns. I’m always open to thoughtful research discussions and collaboration.
 
 ---
 
 ## Interests
-- Genomics & Population Genetics  
-- NGS Data Analysis  
-- Low-pass Sequencing & Imputation  
-- Polygenic Scores  
-- Bioinformatics Pipelines  
-- Computational Biology  
+- Genomics & Population Genetics
+- NGS Data Analysis
+- Low-pass Sequencing & Genotype Imputation
+- Polygenic Scores
+- Bioinformatics Pipelines & Workflow Design
+- Algorithmic & Computational Biology 

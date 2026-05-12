@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: A collection of my scientific writing—preprints, publications, and works that reflect my interest in genomics and computational biology.
-nav: true
+nav: false
 nav_order: 2
 ---
 
